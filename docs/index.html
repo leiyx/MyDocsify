@@ -46,6 +46,9 @@
   <script>
     // Docsify
     window.$docsify = {
+      loadNavbar: true,
+      // 小屏设备下合并导航栏到侧边栏
+      mergeNavbar: true,
       // GENERAL
       // -----------------------------------------------------------------
       // name: 'docsify-themeable',
@@ -67,9 +70,9 @@
 
       // PLUGINS
       // -----------------------------------------------------------------
-      ethicalAds: {
-        eaPublisher: 'jhildenbiddle-github-io'
-      },
+      // ethicalAds: {
+      //   eaPublisher: 'jhildenbiddle-github-io'
+      // },
       executeScript: true,
       search: {
         depth: 3,
@@ -97,7 +100,13 @@
             });
           }
         }
-      ]
+      ],
+
+      // docsify-hide-code
+      hideCode: {
+        scroll: false, // Enable scrolling
+        height: 500 // Max height
+      },
     };
   </script>
   <script src="assets/js/main.js"></script>
@@ -120,7 +129,43 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+  <!-- 语法高亮 -->
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-c.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-git.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-git.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify-hide-code/dist/docsify-hide-code.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
+
+  <!-- 回到顶部功能 -->
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/wugenqiang/NoteBook@master/plugin/jquery.goup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 100,
+        bottomOffset: 52,
+        locationOffset: 25,
+        // title: 'TOP',
+        titleAsText: true,
+        arrowColor: '#fff',
+        containerColor: '#4682B4',
+      });
+    });
+  </script>
+
+  <!-- 表情符号 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+
+
+
 </body>
 
 </html>
+
+<!-- \#2096ff -->
