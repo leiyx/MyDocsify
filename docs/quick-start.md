@@ -169,3 +169,20 @@ npx http-server
 # Python (v3)
 python -m http.server
 ```
+
+## Test
+
+```xmind preview
+./SIMP.xmind
+```
+
+```plantuml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
+```
+

@@ -3,7 +3,7 @@
   - [异步设计](post/wheel_design/async)
   - [事件系统](post/wheel_design/evt)
   - [uml](post/software_design/uml)
-  - [table_cfg](post/software_design/table_cfg)
+  - [table_drive_refact](post/software_design/table_drive_refact)
 * docsify themeable
   - [Introduction](introduction)
   - [Quick Start](quick-start)
