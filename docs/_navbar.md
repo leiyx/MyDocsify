@@ -1,4 +1,4 @@
-* 计算机技术
+<!-- * 计算机技术
   - [基础知识](post/basis/basis.md)
   - [异步设计](post/wheel_design/async)
   - [事件系统](post/wheel_design/evt)
@@ -12,4 +12,4 @@
   - [Options](options)
   - [Plugin authors](plugin-authors)
   - [Markdown](markdown)
-  - [Changelog](changelog)
+  - [Changelog](changelog) -->
