@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>语言导航</title>
+    <style>
+        /* 按钮容器样式 */
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            /* 允许换行 */
+            gap: 15px;
+            /* 按钮之间的间距 */
+            margin: 20px 0;
+            /* 根据需要调整外边距 */
+        }
+
+        /* 按钮通用样式 */
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            width: calc(50% - 7.5px);
+            /* 按钮宽度为原长度的一半，减去间距的一半 */
+            font-size: 18px;
+            font-weight: bold;
+            /* 字体加粗 */
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            box-sizing: border-box;
+            /* 确保 padding 包含在宽度内 */
+        }
+
+        /* 按钮颜色 */
+        .button-color-1 {
+            background-color: #7fbfff;
+            /* 浅蓝色 1 */
+        }
+
+        .button-color-1:hover {
+            background-color: #6aa3e0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 你的原有网页内容 -->
+    <div>
+        <h1>C++语言</h1>
+        <!-- 插入按钮容器 -->
+        <div class="button-container">
+            <a href="#/docsify/introduction.md" class="button button-color-1">introduction</a>
+            <a href="#/docsify/customization.md" class="button button-color-1">customization</a>
+            <a href="#/docsify/markdown.md" class="button button-color-1">markdown</a>
+            <a href="#/docsify/options.md" class="button button-color-1">options</a>
+            <a href="#/docsify/plugin-authors.md" class="button button-color-1">plugin-authors</a>
+            <a href="#/docsify/quick-start.md" class="button button-color-1">quick-start</a>
+            <a href="#/docsify/themes.md" class="button button-color-1">themes</a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,14 +1,31 @@
+- **编程语言**
+- [C1](language\C\1.md)
+- [C2](language\C\2.md)
+- [C3](language\C\3.md)
+- [C++1](language\C++\1.md)
+- [C++2](language\C++\2.md)
+- [C++3](language\C++\3.md)
+- [Python1](language\Python\1.md)
+- [Python2](language\Python\2.md)
+- [Python3](language\Python\3.md)
+- [Shell1](language\Shell\1.md)
+- [Shell2](language\Shell\2.md)
+- [Shell3](language\Shell\3.md)
+- **数据结构与算法**
+- **软件设计**
+- **工具使用**
+- **docsify-themable**
 <!-- markdownlint-disable-next-line first-line-heading -->
-- [Introduction](introduction)
-- [Quick Start](quick-start)
-- [Themes](themes)
-- [Customization](customization)
-- [Options](options)
-- [Plugin authors](plugin-authors)
-- [Markdown](markdown)
-- [Changelog](changelog)
+- [Introduction](docsify/introduction)
+- [Quick Start](docsify/quick-start)
+- [Themes](docsify/themes)
+- [Customization](docsify/customization)
+- [Options](docsify/options)
+- [Plugin authors](docsify/plugin-authors)
+- [Markdown](docsify/markdown)
+- [Changelog](docsify/changelog)
 - **Links**
-- [![Code](assets/img/code.svg)Demo Sandbox](https://codesandbox.io/s/xv36w4695o)
-- [![Github](assets/img/github.svg)Github](https://github.com/jhildenbiddle/docsify-themeable)
-- [![NPM](assets/img/npm.svg)NPM](https://www.npmjs.com/package/docsify-themeable)
-- [![Twitter](assets/img/twitter.svg)@jhildenbiddle](http://twitter.com/jhildenbiddle)
+- [![Code](../assets/img/code.svg)Demo Sandbox](https://codesandbox.io/s/xv36w4695o)
+- [![Github](../assets/img/github.svg)Github](https://github.com/jhildenbiddle/docsify-themeable)
+- [![NPM](../assets/img/npm.svg)NPM](https://www.npmjs.com/package/docsify-themeable)
+- [![Twitter](../assets/img/twitter.svg)@jhildenbiddle](http://twitter.com/jhildenbiddle)
