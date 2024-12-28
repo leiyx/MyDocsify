@@ -12,8 +12,19 @@
 - [Shell2](language\Shell\2.md)
 - [Shell3](language\Shell\3.md)
 - **数据结构与算法**
+- [ds_al1](ds_al/1.md)
+- [ds_al2](ds_al/2.md)
 - **软件设计**
+- [software_design1](software_design/1.md)
+- [software_design2](software_design/2.md)
 - **工具使用**
+- [tools1](tools/1.md)
+- [tools2](tools/2.md)
+- **Links**
+- [![Code](../assets/img/code.svg)Demo Sandbox](https://codesandbox.io/s/xv36w4695o)
+- [![Github](../assets/img/github.svg)Github](https://github.com/leiyx/MyDocsify)
+- [![NPM](../assets/img/npm.svg)NPM](https://www.npmjs.com/package/docsify-themeable)
+- [![Twitter](../assets/img/twitter.svg)@jhildenbiddle](http://twitter.com/jhildenbiddle)
 - **docsify-themable**
 <!-- markdownlint-disable-next-line first-line-heading -->
 - [Introduction](docsify/introduction)
@@ -24,8 +35,3 @@
 - [Plugin authors](docsify/plugin-authors)
 - [Markdown](docsify/markdown)
 - [Changelog](docsify/changelog)
-- **Links**
-- [![Code](../assets/img/code.svg)Demo Sandbox](https://codesandbox.io/s/xv36w4695o)
-- [![Github](../assets/img/github.svg)Github](https://github.com/jhildenbiddle/docsify-themeable)
-- [![NPM](../assets/img/npm.svg)NPM](https://www.npmjs.com/package/docsify-themeable)
-- [![Twitter](../assets/img/twitter.svg)@jhildenbiddle](http://twitter.com/jhildenbiddle)
